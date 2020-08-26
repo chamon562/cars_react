@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './images.jpeg';
 import './App.css';
+import Honda from "./Honda"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           Learn More About the Type R
         </a>
       </header>
+      <Honda />
     </div>
   );
 }

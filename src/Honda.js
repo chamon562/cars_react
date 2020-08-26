@@ -1,16 +1,17 @@
 import React, {Component} from "react"
-import civic from "./civictypr.jpeg"
+import civictyper from "./civictyper.jpeg"
 
 class Honda extends Component {
     render(){
         return(
             <div>
                 <h1>Honda</h1>
-                <img src={} alt="Civic photo" ></img>
-                <p>Model: Civic</p>
+                <img src={civictyper} alt="Civic photo" ></img>
+                <p>Model: Civic Type R</p>
+                <p>Year: 2020</p>
             </div>
         )
     }
 }
 
-export defualt Honda
+export default Honda
